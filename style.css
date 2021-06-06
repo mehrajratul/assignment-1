@@ -1,0 +1,90 @@
+.top-bar{
+    background-color: white;
+    overflow: hidden;
+}
+.top-bar a{
+    text-decoration: none;
+    color: black;
+    float: right;
+    text-align: right;
+    padding: 14px 16px;
+    font-weight: 600;
+    font-size: medium;
+}
+section{
+    height: 500px;
+}
+.greet{
+    color: rgb(32, 32, 145);
+    font-size: 60px;
+    padding-bottom: 0%;
+}
+.intro{
+    color: salmon;
+    font-size: 60px;
+    padding-top: 0%;
+}
+.hire-me-btn{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(180deg, salmon, tomato);
+    margin: 10px 10px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.half-width{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.profile{
+    height: 100%;
+    width: 100%;
+}
+p{
+    color: rgb(0, 0, 0);
+}
+.intro-text{
+    color: rgb(32, 32, 145);
+    font-size: 60px;
+    margin-bottom: 0%;
+}
+.latest-work{
+    height: 600px;
+    background-color: rgba(228, 221, 221, 0.445);
+    background-repeat: no-repeat;
+    align-items: center;
+
+}
+.latest-work h1{
+    text-align: center;
+    font-size: 45px;
+    padding-top: 25px;
+}
+.box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    width: 300px;
+    text-align: center;
+    margin-top: 30px;
+    border: 1px solid rgb(219, 208, 208);
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+.card img{
+    width: 95%;
+}
+.connect{
+    background-image: url("shapes/Group_33094_1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 50%;
+    height: 250px;
+}    
